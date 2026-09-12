@@ -1,0 +1,7 @@
+.git
+node_modules
+.next
+out
+test-results
+api/.venv
+api/.pytest_cache
