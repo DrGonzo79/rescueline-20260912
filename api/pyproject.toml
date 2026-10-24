@@ -2,7 +2,11 @@
 name = "rescueline-api"
 version = "0.1.0"
 requires-python = ">=3.11"
-dependencies = ["fastapi>=0.115,<1", "uvicorn>=0.34,<1"]
+dependencies = [
+    "certifi>=2026.10.19",
+    "fastapi>=0.115,<1",
+    "uvicorn>=0.34,<1",
+]
 
 [dependency-groups]
 dev = ["pytest>=8,<9", "httpx>=0.28,<1"]
